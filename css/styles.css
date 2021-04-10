@@ -47,6 +47,10 @@ li{
   color: var(--accent-color);  
 }
 
+.studio:valid{
+  color: #2196f3;
+}
+
 .links .contacts:hover,
 .links .contacts:focus{
   color: var(--accent-color);
