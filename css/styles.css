@@ -3,6 +3,7 @@
     --secondary-color: #212121;
     --accent-color: #2196f3;
     --alt-color: #ffffff;
+    --thirt-color: #f5f4fa;
     --alternative-bgr: #2f303a;
 }
 
@@ -50,7 +51,7 @@ li {
 }
 
 .studio:valid {
-    color: #2196f3;
+    color: var(--accent-color);
 }
 
 .links .contacts:hover,
@@ -62,6 +63,9 @@ li {
 .hero {
     background-color: var(--alternative-bgr);
     color: var(--alt-color);
+}
+
+.hero .main-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -111,6 +115,11 @@ li {
 
 .title .skills {
     color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .text {
@@ -131,7 +140,7 @@ li {
 }
 
 .organization {
-    background-color: #f5f4fa;
+    background-color: var(--thirt-color);
     text-align: center;
 }
 
@@ -179,6 +188,24 @@ li {
 .links .city {
     text-decoration: none;
     color: var(--alt-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.links .cnt {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.links .cnt:hover,
+.links .cnt:focus {
+    color: var(--accent-color);
 }
 
 .links .city:hover,
@@ -189,7 +216,7 @@ li {
 /*портфоліо стилізація*/
 .filters {
     color: var(--secondary-color);
-    background-color: #f5f4fa;
+    background-color: var(--thirt-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
